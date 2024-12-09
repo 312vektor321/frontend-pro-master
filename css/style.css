@@ -2,6 +2,9 @@ body {
     background-color: #F5F5F5;
 
     position: relative;
+    width: 1024px;
+    height: 700px;
+
 }
 
 .header {
@@ -12,22 +15,6 @@ body {
     box-shadow: 0px 9.03012px 27.0904px rgba(176, 190, 197, 0.32), 0px 3.38629px 5.64383px rgba(176, 190, 197, 0.32);
 
 
-}
-
-.header>div {
-    position: absolute;
-    left: 139px;
-    top: 35px;
-
-    width: 107px;
-    height: 19px;
-
-    font-family: Open Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19.07px;
-
-    color: #B0B0B0;
 }
 
 .header__img {
