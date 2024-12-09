@@ -1,5 +1,7 @@
 body {
-    background-color: #E5E5E5;
+    background-color: #F5F5F5;
+
+    position: relative;
 }
 
 .header {
@@ -8,6 +10,24 @@ body {
     align-items: center;
     background: #FFFFFF;
     box-shadow: 0px 9.03012px 27.0904px rgba(176, 190, 197, 0.32), 0px 3.38629px 5.64383px rgba(176, 190, 197, 0.32);
+
+
+}
+
+.header>div {
+    position: absolute;
+    left: 139px;
+    top: 35px;
+
+    width: 107px;
+    height: 19px;
+
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+
+    color: #B0B0B0;
 }
 
 .header__img {
@@ -16,9 +36,7 @@ body {
 
 .header__search {
     width: 581px;
-    padding: 12px 16px;
-    border: none;
-    outline: none;
+    height: 44px;
     border: 1px solid rgba(51, 51, 51, 0.2);
 }
 
@@ -36,6 +54,11 @@ body {
     align-items: center;
     /* black */
     color: #333333;
+
+    position: absolute;
+    top: 130px;
+    left: 20px;
+
 }
 
 .main__table {
@@ -46,17 +69,85 @@ body {
 .main__hcol {
     font-weight: 400;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 16.34px;
     color: #B0B0B0;
+    font-family: 'Open Sans';
+}
+
+.main__hcol__active {
+    color: #9873FF;
+
+    width: 13px;
+    height: 17px;
+
+    position: absolute;
+    top: 189px;
+    left: 40px;
+
+}
+
+.b1 {
+    width: 140px;
+    height: 17px;
+
+    position: absolute;
+    top: 189px;
+    left: 110px;
+}
+
+.b2 {
+    width: 82px;
+    height: 33px;
+
+    position: absolute;
+    top: 173px;
+    left: 343px;
+
+}
+
+.b3 {
+    width: 104px;
+    height: 33px;
+
+    position: absolute;
+    top: 173px;
+    left: 501px;
+
+}
+
+.b4 {
+    width: 56px;
+    height: 17px;
+
+    position: absolute;
+    top: 189px;
+    left: 647px;
+
+}
+
+.b5 {
+    width: 55px;
+    height: 17px;
+
+    position: absolute;
+    top: 189px;
+    left: 797px;
+
 }
 
 .main__load {
+    width: 984px;
     height: 300px;
     margin-bottom: 40px;
     background-color: #FFFFFF;
     background-image: url(../img/load.png);
     background-position: center;
     background-repeat: no-repeat;
+
+    position: absolute;
+    left: 20px;
+    top: 214px;
+
 }
 
 .main__btn {
@@ -70,6 +161,10 @@ body {
     background-color: transparent;
     border: 1px solid #9873FF;
     color: #9873FF;
+
+    position: absolute;
+    top: 554px;
+    left: 404px;
 }
 
 .main__btn span {
